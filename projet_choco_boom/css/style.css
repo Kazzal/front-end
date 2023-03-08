@@ -1,0 +1,23 @@
+* {
+    background-color: #00a5b5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}

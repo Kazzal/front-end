@@ -1,7 +1,46 @@
 
-p {
-    border: solid 2px;
-    background-color: yellow;
-    margin: 0;
-    padding: 2%;
+.container {
+  width: 80%;
+  background-color: darkgray;
+  border: 1px solid black;
+}
+
+
+p{
+  width: 100%;
+    background-color: lightGreen;
+    border: 1px solid red
+  }
+
+  /* le padding est la distance entre le texte et la bordure */
+  
+.p2,{
+  padding: 20px;
+}
+
+  
+.p3{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+/* Bordure */
+.p4{
+  border-width: 5px;
+  border-style: solid;
+  border-color : #09C;
+}
+.p5{
+  border: 15px double #09C;
+}
+.p6{
+  background-color: #0C9;
+  border: 5px ridge #09C;
+}
+.p7{
+  background-color: #0C9;
+  border: 5px outset #09C;
 }
