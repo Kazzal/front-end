@@ -1,23 +1,83 @@
 * {
+    box-sizing: border-box;
     background-color: #00a5b5;
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-header{
-    text-align: center;
-}
-
-section {
-    width: 40%;
+header.container{
     display: flex;
+    flex-flow: column;
     flex-direction: column;
-}
-
-aside {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
+}
 
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #401611;
+    padding: 5px;
+}
+
+a
+{
+    display: flex;
+    margin: 0px 50px 0px 50px;
+    padding-left: 50px;
+    font-size: 1.6em;
+    color:white;
+    text-decoration: none;
+}
+
+.tablet-choco{
+    padding: 0;
+}
+
+
+nav a:hover
+{
+    background-color: rgb(250, 211, 164);
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    flex-direction: row;
+}
+
+h2{
+    background-color: #401611;
+    border-radius: 10px;
+    color: white;
+    font-family: 'sans Narrow';
+    font-size: 1.4em;
+}
+
+section{
+    width: 70%;
+    background-color: cadetblue;
+    padding: 1px;
+    flex-grow: 1;
+}
+
+.p1, .p2, .p3{
+    background-color: cadetblue;
+}
+
+aside{
+    width: 20%;
+    background-color: white;
+    padding: 2%;
+    flex-grow: 1;
+}
+
+.fa-mug-hot{
+    background-color: #401611;
+}
+
+.p4, .p5{
+    background-color: white;
 }
