@@ -1,0 +1,21 @@
+nav{
+    background-color: black;
+    text-align: center;
+}
+
+nav a{
+    color: red;
+}
+
+body{
+    margin: 0;
+    padding: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+#membre{
+    text-align: center;
+}
